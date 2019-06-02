@@ -16,4 +16,5 @@ end
 def printer(attendees)
 loop do puts batch_badge_creator(attendees)
 end
+break
 end
