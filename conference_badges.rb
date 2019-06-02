@@ -15,7 +15,7 @@ end
 
 def printer(attendees)
   puts batch_badge_creator(attendees)
-loop do 
+loop do
   puts "#{assign_rooms}""
 
 end
