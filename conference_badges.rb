@@ -14,6 +14,6 @@ attendees.each_with_index.map { |name, index| "Hello, #{name}! You'll be assigne
 end
 
 def printer(attendees)
-puts batch_badge_creator(name)
-puts assign_rooms(name).tap { |name, index|  }
+loop do puts batch_badge_creator(attendees)
+puts assign_rooms(attendees)
 end
